@@ -172,14 +172,6 @@ function esPrimo(num) {
    // Tu código:
 
  
-
-  /* for (let n = 2; n <num; n++) {
-      if (num % n === 0) {
-         return false;
-      }
-      
-   }
-   return true;*/
    if(num<2 ){
       return false;
    }
