@@ -148,6 +148,8 @@ function empiezaConNueve(num) {
    }else{
       return false;
    }
+
+ 
 }
 
 function todosIguales(array) {
@@ -161,6 +163,11 @@ function todosIguales(array) {
       }
    }
    return true;
+
+     /*
+      var cumplefuncion = array.every ((num) => {return num === array[0]});
+      return cumplefuncion;
+   */
 
 }
 
